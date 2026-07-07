@@ -527,6 +527,19 @@ body {
     line-height: 1.6;
 }
 
+/* ===== Hours Card ===== */
+.hours-card {
+    background: linear-gradient(135deg, rgba(250, 204, 21, 0.1) 0%, rgba(250, 204, 21, 0.05) 100%);
+    border-left: 4px solid var(--primary-color);
+}
+
+.hours-time {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--primary-color) !important;
+    margin-top: 5px;
+}
+
 /* ===== Contact Section ===== */
 .contact-section {
     background-color: var(--dark-color);
@@ -597,6 +610,24 @@ body {
     color: var(--text-muted);
     margin: 5px 0;
     font-size: 0.9rem;
+}
+
+.footer-hours {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-hours p:first-child {
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.footer-hours p:last-child {
+    color: var(--text-color);
+    font-weight: 500;
 }
 
 /* ===== Image Modal ===== */
