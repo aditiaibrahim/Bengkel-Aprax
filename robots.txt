@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /app.js
+
+Sitemap: https://bengkelaprax.vercel.app/sitemap.xml
+
+# Crawl-delay untuk menghormati server
+Crawl-delay: 1
